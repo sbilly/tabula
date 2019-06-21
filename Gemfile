@@ -12,7 +12,7 @@ platform :jruby do
     gem "rake"
     gem "warbler", "~> 1.4.9"
     gem "jruby-jars", "1.7.24"
-    gem "bootstrap-sass", "~> 3.2.0"
+    gem "bootstrap-sass", "~> 3.4.0"
     gem "compass"
   end
 end
