@@ -9,7 +9,7 @@ platform :jruby do
   gem "tilt", "~> 1.4.0"
 
   group :development do
-    gem "rake"
+    gem "rake", ">= 12.3.3"
     gem "warbler", "~> 1.4.9"
     gem "jruby-jars", "1.7.24"
     gem "bootstrap-sass", "~> 3.2.0"
