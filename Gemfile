@@ -4,8 +4,8 @@
 
 source "https://rubygems.org"
 platform :jruby do
-  gem "cuba"
-  gem "rack", "~> 1.6.0"
+  gem "cuba", ">= 3.8.0"
+  gem "rack", "~> 2.1.4"
   gem "tilt", "~> 1.4.0"
 
   group :development do
